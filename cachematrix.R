@@ -40,10 +40,11 @@ cacheSolve <- function(x, ...) {
 }
 
 
-
-mymatrix<- matrix(c(1,2,2,3), 2, 2);
-
-
-A<-makeCacheMatrix(mymatrix);
-cacheSolve(A)
-print(A$getinverse())
+## Part to test that the function in working with a simple matrix 2x2 defined
+## in "mymatrix"! Uncomment to test the functions.
+# mymatrix<- matrix(c(1,2,2,3), 2, 2);
+# 
+# 
+# A<-makeCacheMatrix(mymatrix);
+# cacheSolve(A)
+# print(A$getinverse())
